@@ -27,8 +27,8 @@ https://discourse.purescript.org/t/recommended-tooling-for-purescript-applicatio
     $ pscid
 
     # Start http server (Use new tmux window)
-    # Point browser to http://localhost:8080 (View console)
     $ cd dist && http-server
+    # Point browser to http://localhost:8080 (View console)
 
     # Pretty-print files if desired
     $ purty --write src/Main.purs
